@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac15d9040fe5149b8e4cc9505f3a5c, type: 3}
+  m_Name: HexMaze
+  m_EditorClassIdentifier: 
+  menuName: Hexagonal Grid
+  mazePrefab: {fileID: 725911988657796898, guid: c68b388b9fee9a94493b2bfe254bf73c, type: 3}
+  tileSet: {fileID: 11400000, guid: 1e34eee505937354d8cc6d5db2ab5d32, type: 2}
+  destinationPrefab: {fileID: 3558687379238430977, guid: 078c45e8c03e52845a3fed2ee8f7e809, type: 3}
+  type: 1

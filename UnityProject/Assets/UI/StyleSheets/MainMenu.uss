@@ -1,0 +1,77 @@
+Label#Title {
+    -unity-font-style: bold-and-italic;
+    font-size: 144px;
+    -unity-text-align: upper-center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: rgba(255, 255, 255, 255);
+}
+
+#Menu {
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+#Menu #Type {
+    flex-direction: column;
+}
+
+Slider :focus {
+    color: rgb(255, 255, 255);
+}
+
+DropdownField > VisualElement {
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(0, 0, 0, 255);
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+Button {
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(0, 0, 0, 255);
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#unity-text-input {
+    color: rgba(255, 255, 255, 255);
+    -unity-font-style: bold-and-italic;
+    background-color: rgba(0, 0, 0, 255);
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 20px;
+}

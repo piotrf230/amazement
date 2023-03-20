@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/MainMenu.uss?fileID=7433441132597879392&amp;guid=cf88cd5aa2488d6418084276a1270b13&amp;type=3#MainMenu" />
+    <ui:Label text="aMAZEment" display-tooltip-when-elided="true" name="Title" />
+    <ui:VisualElement name="Menu">
+        <ui:SliderInt picking-mode="Ignore" label="Height" value="10" high-value="50" show-input-field="true" name="Height" low-value="5" />
+        <ui:SliderInt picking-mode="Ignore" label="Width" value="10" high-value="50" name="Width" show-input-field="true" low-value="5" />
+        <ui:SliderInt picking-mode="Ignore" label="Target Count" value="4" high-value="20" name="Targets" show-input-field="true" inverted="false" low-value="1" />
+        <ui:DropdownField label="Maze Grid Type" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="Type" style="flex-direction: row;" />
+        <ui:DropdownField label="Algorithm" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="Algorithm" />
+        <ui:Button text="Start Game" display-tooltip-when-elided="true" name="Start" />
+        <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" />
+        <ui:Label text="Press WSAD to choose direction and SPACE to jump on chosen node. Press Esc twice to exit to main menu." display-tooltip-when-elided="true" name="Instructions" style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

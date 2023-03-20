@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/InGameUI.uss?fileID=7433441132597879392&amp;guid=ec0590d4004a1dd43b2e7507ef2fbfa4&amp;type=3#InGameUI" />
+    <ui:Label text="Press Esc Again to Quit" display-tooltip-when-elided="true" name="QuitLabel" class="InLabel" style="position: absolute; top: 50%; left: 50%; translate: -50% -50%;" />
+    <ui:Label text="xx/XX" display-tooltip-when-elided="true" name="PointLabel" class="InLabel" style="position: absolute; top: 93%; left: 87%; bottom: 0;" />
+    <ui:VisualElement name="WinScreen" style="position: absolute;">
+        <ui:Label text="You Won!" display-tooltip-when-elided="true" name="WinLabel" />
+        <ui:Label text="Press any key to go back to main menu" display-tooltip-when-elided="true" name="PressEnter" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Instruction" style="background-image: url(&apos;project://database/Assets/UIGraphics/Rect.png?fileID=2800000&amp;guid=55194f262c820be41a94d6d5f8beab52&amp;type=3#Rect&apos;); width: 520px; height: 332px;" />
+</ui:UXML>
